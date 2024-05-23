@@ -27,14 +27,14 @@
 
 
 
-// let day = confirm("Bu gunun hava praqnozunu gormek isteyirsiz?")
+let day = confirm("Bu gunun hava praqnozunu gormek isteyirsiz?")
 
-// if (day===true) {
-//     alert("Hava bugun guneslidir")
-// }
-// else {
-//     alert("gostermirem")
-// }                                                                  hava   
+if (day) {
+    alert("Hava bugun guneslidir")
+}
+else {
+    alert("gostermirem")
+}                                                                  hava   
 
 
 // let age = prompt("Yasinizi daxil edin");
@@ -66,24 +66,24 @@
 
 
 
-let number = prompt("Balinizi qeyd edin")
+// let number = prompt("Balinizi qeyd edin")
 
-if (number>=91 && number<=100) {
-    alert("A aldiniz ve imtahandan ugurla kecdiniz")
-}
+// if (number>=91 && number<=100) {
+//     alert("A aldiniz ve imtahandan ugurla kecdiniz")
+// }
 
-else if (number>=81 && number<=90) {
-    alert("B aldiniz ve Novbeti merheleye buraxildiniz")
-}
-else if (number>=71 && number<=80) {
-    alert("C aldiniz ve Yeniden muraciet edin")
-}
-else if (number>=61 && number<=70) {
-    alert("D aldiniz ve Kesildiniz")
-}
-else {
-    alert("duzgun melumat deyil")
-}
+// else if (number>=81 && number<=90) {
+//     alert("B aldiniz ve Novbeti merheleye buraxildiniz")
+// }
+// else if (number>=71 && number<=80) {
+//     alert("C aldiniz ve Yeniden muraciet edin")
+// }
+// else if (number>=61 && number<=70) {
+//     alert("D aldiniz ve Kesildiniz")
+// }
+// else {
+//     alert("duzgun melumat deyil")
+// // }                                                imtahan bali
 
 
 
@@ -99,6 +99,47 @@ else {
 // }
 
 // alert (maas)
+
+
+
+
+
+
+
+// let x = 10
+// let y = x
+// console.log(x);// 10
+
+// console.log(y);// 10
+// y = 20 
+// console.log(x);// 10
+// console.log(y);// 20 
+
+
+
+// let obj1 = {name:"Ugur"}
+// let obj2 = obj1
+//  console.log(obj1);// Ugur
+//  console.log(obj2);// Ugur
+
+//  obj2.name = "Faiq"
+
+// console.log(obj1);// Faiq
+// console.log(obj2);// Faiq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
